@@ -1,0 +1,152 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+}
+img{
+    width: 100%;
+}
+.header-area{
+    background-color: #FFF9F4;
+    padding-bottom: 80px;
+}
+nav img{
+    width: 80%;
+}
+.nav-padding{
+    padding-top: 40px;
+}
+div#navbarNav {
+    flex-direction: row-reverse;
+    font-weight: 600;
+    color: #3C3C3C;
+}
+.site-banner img{
+    width: 80%;
+}
+.site-banner .card{
+    background-color: transparent;
+    border: 0 solid;
+}
+.site-banner .card h2{
+    color: #FA804C;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    line-height: 100%;
+}
+.site-banner .card h2 > span{
+    color: #363958;
+    display: block;    
+}
+.style-btn{
+    text-decoration: none;
+    background-image: linear-gradient(180deg, #3D4FF3, #3543BC);
+    color: white;
+    padding: 13px 35px;
+    display: inline-block;
+    border-radius: 5px;
+}
+a.style-btn:hover {
+    color: white;
+}
+a.style-btn i{
+    padding-right: 7px;
+}
+.shoe-area{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.shoe-area h3{
+    color: #363958;
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+}
+.shoe-area h4{
+    color: #363958;
+    font-weight: 700;
+    font-size: 24px;
+}
+.shoe-area .card{
+    padding: 13px;
+    border-radius: 20px;
+    border: 0 solid;
+}
+.shoe-area img{
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    height: 330px;
+    margin-bottom: 15px;
+}
+.shoe-area .card-body{
+    padding: 0;
+}
+.shoe-area .card-footer{
+    background-color: transparent;
+    border: 0 solid;
+    padding: 10px 0;
+}
+.price{
+    color: #FA804C;
+    font-weight: 900;
+    font-size: 36px;
+    padding-top: 14px;
+}
+
+.policy-area{
+    padding-top: 70px;
+}
+.policy-area .card{
+    border: 0 solid;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.policy-area .card img{
+    width: 60%;
+}
+.policy-area .card-body h5{
+    color: #363958;
+    font-size: 24px;
+    font-weight: 700;
+}
+ 
+
+  
+@media (min-width: 577px) and (max-width: 992px) {
+    .price{
+        font-size: 22px;
+    }
+    .style-btn{
+        padding: 7px 9px;
+    }
+    .policy-area .card img{
+        width: 40%;
+    }    
+    .policy-banner{
+        padding: 40px 0;
+    }
+
+  }
+
+  
+@media (min-width: 420px) and (max-width: 576px) {
+    .price{
+        font-size: 36px;
+    }
+    .navbar-toggler {
+        position: absolute;
+        top: 10px;
+    }
+    .shoe-area img{
+        height: auto;
+    }
+    .policy-area .card img{
+        width: 20%;
+    }
+    .policy-area .card-body{
+        text-align: center;
+    }
+    .policy-banner{
+        padding: 40px 0;
+    }
+  }
+
