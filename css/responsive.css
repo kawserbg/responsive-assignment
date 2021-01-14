@@ -1,0 +1,39 @@
+ 
+@media (min-width: 577px) and (max-width: 992px) {
+    .price{
+        font-size: 22px;
+    }
+    .style-btn{
+        padding: 7px 9px;
+    }
+    .policy-area .card img{
+        width: 40%;
+    }    
+    .policy-banner{
+        padding: 40px 0;
+    }
+
+  }
+
+  
+@media (min-width: 420px) and (max-width: 576px) {
+    .price{
+        font-size: 36px;
+    }
+    .navbar-toggler {
+        position: absolute;
+        top: 10px;
+    }
+    .shoe-area img{
+        height: auto;
+    }
+    .policy-area .card img{
+        width: 20%;
+    }
+    .policy-area .card-body{
+        text-align: center;
+    }
+    .policy-banner{
+        padding: 40px 0;
+    }
+  }
